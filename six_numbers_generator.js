@@ -1,7 +1,7 @@
 
-const selezione = [];
+const sixNumbers = [];
 
-function addToSelezione(arr){
+function addSixNumbers(arr){
   let lista = [];
 
   for(let i = 0; i<=100; i++){
@@ -16,5 +16,5 @@ function addToSelezione(arr){
   
 }
 
-addToSelezione(selezione);
-console.log(selezione);
+addSixNumbers(sixNumbers);
+console.log(sixNumbers);
